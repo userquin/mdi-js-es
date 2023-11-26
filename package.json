@@ -1,0 +1,43 @@
+{
+  "name": "mdi-js-es",
+  "type": "module",
+  "version": "0.0.0",
+  "homepage": "https://github.com/userquin/mdi-js-es#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/userquin/mdi-js-es"
+  },
+  "bugs": "https://github.com/userquin/mdi-js-es/issues",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./*"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.cjs && tsup src/index.ts --format cjs,esm --dts --no-splitting",
+    "release": "npm run build && bumpp && npm run publish"
+  },
+  "devDependencies": {
+    "@mdi/svg": "^7.3.67",
+    "@mdi/util": "^0.3.2",
+    "bumpp": "^9.2.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2"
+  }
+}
