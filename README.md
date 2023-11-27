@@ -14,6 +14,8 @@ ESM build of [@mdi/js](https://www.npmjs.com/package/@mdi/js).
 - [mdi-js-es in publint.dev](https://publint.dev/mdi-js-es@7.3.67)
 - [mdi-js-es in arethetypeswrong.github.io](https://arethetypeswrong.github.io/?p=mdi-js-es%407.3.67)
 
+**NOTE**: This package will be deprecated if [@mdi/js](https://www.npmjs.com/package/@mdi/js) adds an ESM build: https://github.com/Templarian/MaterialDesign-JS/issues/28
+
 ## Versioning
 
 This package will use the same [@mdi/svg](https://www.npmjs.com/package/@mdi/svg) version number.
