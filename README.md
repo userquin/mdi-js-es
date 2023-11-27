@@ -10,8 +10,8 @@ ESM build of [@mdi/js](https://www.npmjs.com/package/@mdi/js).
 
 [@mdi/js](https://www.npmjs.com/package/@mdi/js) is a great package, but it is only CJS:
 - [@mdi/js in publint.dev](https://publint.dev/@mdi/js@7.3.67)
-- [@mdi/js in arethetypeswrong.github.io](https://publint.dev/@mdi/js@7.3.67)
-- [mdi-js-es in publint.dev](https://arethetypeswrong.github.io/?p=mdi-js-es%407.3.67)
+- [@mdi/js in arethetypeswrong.github.io](https://arethetypeswrong.github.io/?p=%40mdi%2Fjs%407.3.67)
+- [mdi-js-es in publint.dev](https://publint.dev/mdi-js-es@7.3.67)
 - [mdi-js-es in arethetypeswrong.github.io](https://arethetypeswrong.github.io/?p=mdi-js-es%407.3.67)
 
 ## Versioning
