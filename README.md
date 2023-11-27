@@ -4,7 +4,17 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-ESM first build of [@mdi/js](https://www.npmjs.com/package/@mdi/js) with dual CJS/ESM support.
+ESM first build of [@mdi/js](https://www.npmjs.com/package/@mdi/js).
+
+## Why?
+
+[@mdi/js](https://www.npmjs.com/package/@mdi/js) is a great package, but it is only CJS.
+
+## Versioning
+
+This package will use the same [@mdi/svg](https://www.npmjs.com/package/@mdi/svg) version number.
+
+There is no guarantee that this package will be updated to the latest version of [@mdi/svg](https://www.npmjs.com/package/@mdi/svg), feel free to file an issue if you want to request an update.
 
 ## Usage
 
