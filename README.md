@@ -4,7 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-ESM first build of [@mdi/js](https://www.npmjs.com/package/@mdi/js).
+ESM build of [@mdi/js](https://www.npmjs.com/package/@mdi/js).
 
 ## Why?
 
