@@ -1,7 +1,7 @@
 {
   "name": "mdi-js-es",
   "type": "module",
-  "version": "7.3.67",
+  "version": "7.4.47",
   "license": "MIT",
   "homepage": "https://github.com/userquin/mdi-js-es#readme",
   "repository": {
@@ -35,7 +35,7 @@
     "release": "npm run build && bumpp && npm publish"
   },
   "devDependencies": {
-    "@mdi/svg": "^7.3.67",
+    "@mdi/svg": "^7.4.47",
     "@mdi/util": "^0.3.2",
     "bumpp": "^9.2.0",
     "tsup": "^8.0.1",
