@@ -1,4 +1,5 @@
 const util = require('@mdi/util');
+const fs = require('node:fs');
 
 const meta = util.getMeta(true);
 
@@ -15,4 +16,4 @@ const lines = meta.map(icon => {
 
 const output = `// Material Design Icons v${util.getVersion()}\n${lines.join('\n')}`;
 
-util.write('./src/index.ts', output);
+fs.writeFileSync('./src/index.ts', output, 'utf-8');
