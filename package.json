@@ -6,7 +6,7 @@
   "homepage": "https://github.com/userquin/mdi-js-es#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/userquin/mdi-js-es"
+    "url": "git+https://github.com/userquin/mdi-js-es"
   },
   "bugs": "https://github.com/userquin/mdi-js-es/issues",
   "sideEffects": false,
